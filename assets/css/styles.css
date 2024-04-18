@@ -2,3 +2,19 @@ body{
     background-color: seashell;
     font-family: sans-serif;
 }
+/* Estilos para el header */
+.header {
+    background-color: #C08759;
+    display: flex;
+    padding: 50px;
+}
+
+main {
+    margin: 100px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 100px;
+}
