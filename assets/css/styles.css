@@ -33,12 +33,13 @@ main {
 
 .section-left {
     display: flex;
-    width: 40%;
+    border-right: 3px solid black;
     padding: 0 100px 0 10px;
+    width: 40%;
 }  
 
 .section-right {
     display: flex;
     width: auto;
-    padding-right: 10px;
+    padding: 0 10px 0 50px;
 }
