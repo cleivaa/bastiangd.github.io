@@ -25,3 +25,20 @@ body{
 main {
     margin: 100px;
 }
+
+.contenedor {
+    display: flex;
+
+}
+
+.seccion-1 {
+    display: flex;
+    width: 40%;
+    padding: 0 100px 0 10px;
+}  
+
+.seccion-2 {
+    display: flex;
+    width: auto;
+    padding-right: 10px;
+}
