@@ -29,7 +29,7 @@ main {
 section h4 {
     text-transform: uppercase;
     letter-spacing: 5px;
-    text-decoration: underline 2px;
+    text-decoration: underline 2px;     
 }
 
 .contenedor {
