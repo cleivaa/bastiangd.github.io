@@ -21,7 +21,7 @@ body{
     transform: translate(80%, -40% );
     font-size: 1.3em;
 }
-
+/* Estilos para el main.  */
 main {
     margin: 100px;
 }
@@ -30,14 +30,14 @@ main {
     display: flex;
     margin: 0 10em 0 10em;
 }
-
+/* Estilos left-side screen */
 .section-left {
     display: flex;
     border-right: 3px solid black;
     padding: 0 100px 0 10px;
     width: 40%;
 }  
-
+/* Estilos right-side screen */
 .section-right {
     display: flex;
     width: auto;
