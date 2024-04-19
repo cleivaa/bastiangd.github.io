@@ -1,70 +1,104 @@
-body{
-    background-color: seashell;
-    font-family: sans-serif;
+body {
+  background-color: seashell;
+  font-family: sans-serif;
 }
 /* Estilos para el header */
 .header {
-    background-color: #DEDEDE;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #dedede;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nombre-usuario {
-    font-size: 1.5em;
-    margin: 0;
-    color: #222222;
+  font-size: 1.5em;
+  margin: 0;
+  color: #222222;
 }
 
 .titulo-personal {
-    margin: 0;
-    transform: translate(80%, -40% );
-    font-size: 1.3em;
+  margin: 0;
+  transform: translate(80%, -40%);
+  font-size: 1.3em;
 }
 /* Estilos para el main.  */
 main {
-    margin: 100px;
+  margin: 100px;
 }
 
 section h4 {
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-decoration: underline 2px;     
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-decoration: underline 2px;
 }
 
 .contenedor {
-    display: flex;
-    margin: 0 10em 0 10em;
+  display: flex;
+  margin: 0 10em 0 10em;
 }
 /* Estilos left-side screen */
 .section-left {
+  display: flex;
+  border-right: 3px solid black;
+  padding: 0 100px 0 10px;
+  width: 40%;
+}
+
+.perfil-profesional {
+  display: block;
+}
+
+.contact-social {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-container {
     display: flex;
-    border-right: 3px solid black;
-    padding: 0 100px 0 10px;
-    width: 40%;
-}  
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.icon-container {
+  width: fit-content;
+  height: fit-content;
+  font-size: 40px;
+  color: orange;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info p{
+    margin: 0 0 2px 10px;
+}
 /* Estilos right-side screen */
 .section-right {
-    display: flex;
-    width: auto;
-    padding: 0 10px 0 50px;
+  display: flex;
+  width: auto;
+  padding: 0 10px 0 50px;
 }
 /* Estilos para la .experiencia */
 
-.company-name { 
-    font-size: large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 900;
+.company-name {
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
 }
 
 .dates {
-    font-style: italic;
-    font-size: medium;
-    font-weight: 400
+  font-style: italic;
+  font-size: medium;
+  font-weight: 400;
 }
 
-.description { 
-    font-style: normal;
-    font-size: small;
-    font-weight: 600;
+.description {
+  font-style: normal;
+  font-size: small;
+  font-weight: 600;
 }
