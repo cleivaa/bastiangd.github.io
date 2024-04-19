@@ -31,13 +31,13 @@ main {
 
 }
 
-.seccion-1 {
+.section-left {
     display: flex;
     width: 40%;
     padding: 0 100px 0 10px;
 }  
 
-.seccion-2 {
+.section-right {
     display: flex;
     width: auto;
     padding-right: 10px;
