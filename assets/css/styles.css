@@ -28,7 +28,7 @@ main {
 
 .contenedor {
     display: flex;
-
+    margin: 0 10em 0 10em;
 }
 
 .section-left {
