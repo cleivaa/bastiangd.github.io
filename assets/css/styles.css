@@ -174,3 +174,15 @@ ul .exp-container li {
   font-size: small;
   font-weight: 600;
 }
+
+footer {
+  align-items: center;
+  background-color: #222222;
+  color: #dedede;
+  display: inline-flex;
+  font-weight: 600;
+  justify-content: center;
+  height: 90px;
+  margin: 0;
+  width: 100%;
+}
