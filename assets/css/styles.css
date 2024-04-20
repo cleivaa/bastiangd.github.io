@@ -96,11 +96,24 @@ section h4 {
 /* Estilos para habilidades */
 
 .hability ul {
-  list-style-type: disclosure-closed;
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+.language-container {
+  display: flex;
 }
 
 .hability li {
+  display: flex;
+  align-items: center;
   margin: 5px 0 5px 10px;
+}
+
+.hability i {
+  font-size: 30px;
+  padding-right: 25px;
+  width: 30px;
 }
 
 /* Estilos right-side screen */
@@ -119,7 +132,6 @@ section h4 {
 .exp-container .description li{
   margin: 0 0 10px 5px;
   list-style-type: square;
-
 }
 
 
