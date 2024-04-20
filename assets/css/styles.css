@@ -4,22 +4,22 @@ body {
 }
 /* Estilos para el header */
 .header {
+  align-items: center;
   background-color: #dedede;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .nombre-usuario {
+  color: #222222;
   font-size: 1.5em;
   margin: 0;
-  color: #222222;
 }
 
 .titulo-personal {
+  font-size: 1.3em;
   margin: 0;
   transform: translate(80%, -40%);
-  font-size: 1.3em;
 }
 /* Estilos para el main.  */
 main {
@@ -27,9 +27,9 @@ main {
 }
 
 section h4 {
-  text-transform: uppercase;
   letter-spacing: 5px;
   text-decoration: underline 2px;
+  text-transform: uppercase;
 }
 
 .contenedor {
@@ -38,8 +38,8 @@ section h4 {
 }
 /* Estilos left-side screen */
 .section-left {
-  display: flex;
   border-right: 3px solid black;
+  display: flex;
   padding: 0 100px 0 10px;
   width: 40%;
 }
@@ -47,53 +47,72 @@ section h4 {
 .perfil-profesional {
   display: block;
 }
-
+/* Estilos para información de contacto */
 .contact-social {
-  margin-top: 50px;
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .social-container {
-    display: flex;
-    margin-bottom: 10px;
-    margin-top: 10px;
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .icon-container {
-  width: fit-content;
-  height: fit-content;
-  font-size: 40px;
   color: orange;
+  font-size: 40px;
+  height: fit-content;
+  width: fit-content;
 }
 
-.contact-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.contact-info p{
-    margin: 0 0 2px 10px;
+.contact-info p {
+  margin: 0 0 2px 10px;
 }
+
+/* Estilos para habilidades */
+.hability ul {
+  list-style-type: disclosure-closed;
+}
+
+.hability li {
+  margin: 5px 0 5px 10px;
+}
+
 /* Estilos right-side screen */
 .section-right {
   display: flex;
-  width: auto;
   padding: 0 10px 0 50px;
+  width: auto;
 }
 /* Estilos para la .experiencia */
 
+ul .exp-container li,
+ul .exp-container p {
+  padding-left: 50px;
+}
+
+ul .exp-container li {
+  list-style: disc;
+}
+
 .company-name {
-  font-size: large;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
   font-weight: 900;
 }
 
 .dates {
-  font-style: italic;
   font-size: medium;
+  font-style: italic;
   font-weight: 400;
 }
 
