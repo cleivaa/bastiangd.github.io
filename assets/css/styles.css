@@ -53,7 +53,7 @@ section h4 {
 }
 
 .resumen-profesional {
-    text-align: justify;
+  text-align: justify;
 }
 
 /* Estilos para información de contacto */
@@ -129,11 +129,10 @@ section h4 {
   text-align: justify;
 }
 
-.exp-container .description li{
+.exp-container .description li {
   margin: 0 0 10px 5px;
   list-style-type: square;
 }
-
 
 ul .exp-container > li,
 ul .exp-container p {
