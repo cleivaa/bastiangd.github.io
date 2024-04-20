@@ -37,7 +37,7 @@ section h4 {
 
 .contenedor {
   display: flex;
-  margin: 0 10em 0 10em;
+  margin: 0 10em 0 8em;
 }
 
 /* Estilos left-side screen */
