@@ -95,13 +95,24 @@ section h4 {
 
 /* Estilos para habilidades */
 
+.hard-habilities {
+  display: flex;
+  flex-direction: column;
+}
+
+.language-box {
+  display: flex;
+  align-items: center;
+}
+
+.language-box i{
+  display: flex;
+  justify-content: center;
+}
+
 .hability ul {
   list-style-type: none;
   padding-left: 5px;
-}
-
-.language-container {
-  display: flex;
 }
 
 .hability li {
