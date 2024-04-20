@@ -95,12 +95,14 @@ section h4 {
 
 /* Estilos para habilidades */
 
-.hard-habilities {
+.hard-habilities,
+.soft-skills {
   display: flex;
   flex-direction: column;
 }
 
-.language-box {
+.language-box,
+.soft-box {
   display: flex;
   align-items: center;
 }
