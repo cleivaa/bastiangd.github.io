@@ -205,15 +205,14 @@ ul .exp-container li {
 }
 
 footer {
+  display: flex;
   align-items: center;
   background-color: #222222;
-  color: #dedede;
-  display: inline-flex;
+  color: #dedede; 
   font-weight: 600;
   justify-content: center;
   height: 90px;
   margin: 0;
-  width: 100%;
 }
 
 /* Estilos para portafolio.html */
