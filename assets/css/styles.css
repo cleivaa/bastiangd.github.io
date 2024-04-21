@@ -21,6 +21,22 @@ body {
   margin: 0;
   transform: translate(80%, -40%);
 }
+
+/* Estilos para el navbar */
+
+nav {
+  background-color: #222222;
+  padding: 30px;
+  position: sticky;
+  width: 100%;
+}
+
+nav a {
+  color: #dedede;
+  font-weight: 600;
+  margin-left: 60px;
+}
+
 /* Estilos para el main.  */
 
 main {
