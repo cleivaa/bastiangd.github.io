@@ -221,7 +221,6 @@ footer {
   text-align: center;
   box-sizing: border-box;
   cursor: pointer;
-  float: left;
   margin-top: 50px; 
   transition: 0.5s;
   padding: 0 25px;
@@ -230,6 +229,10 @@ footer {
 
 .card:hover img {
   opacity: 1;
+}
+
+.cards {
+  display: flex;
 }
 
 .card img {
@@ -247,3 +250,4 @@ footer {
   font-weight: 500;
   padding: 10px;
 }
+
