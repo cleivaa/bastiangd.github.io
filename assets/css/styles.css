@@ -218,6 +218,7 @@ footer {
 /* Estilos para portafolio.html */
 
 .card {
+  text-align: center;
   box-sizing: border-box;
   cursor: pointer;
   float: left;
