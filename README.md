@@ -1,2 +1,3 @@
 # bastianGd.github.io
-Forked por Simoncarlosv
+
+Portafolio de Bastián Gabrielli
